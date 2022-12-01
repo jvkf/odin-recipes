@@ -18,10 +18,16 @@ h1 {
   border-radius: 5px;
   width: max-content;
   padding: 10px;
+  font-size: 3rem;
+  transition: 500ms;
+}
+
+h1:hover {
+  transform: translateY(-5px);
 }
 
 .recipes-container {
-  background-color: rgba(198, 255, 28, 0.668);
+  background-color: rgba(152, 228, 254, 0.668);
   display: flex;
   flex-direction: column;
   align-items: center;
